@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: transparent;
+    position:absolute;
+    z-index: 1000000;
+}
+
+.text-nav {
+    color: rgb(190, 0, 0);
+    margin-left: 79px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.btn-login {
+    background-color: rgb(180, 0, 0);
+    width: 100px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 1300px;
+}
+
+.btn-login:hover {
+    background-color: rgb(77, 0, 0);
+}

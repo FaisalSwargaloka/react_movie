@@ -1,0 +1,49 @@
+.animeBg{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.Container-anime {
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content:center;
+    gap: 15px;
+    flex-wrap:wrap;
+    background-color: rgb(0, 0, 0);
+}
+.wrapper-anime {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 3px;
+    gap: 20px;
+}
+.wrapper-anime:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+}
+.anime-image {
+    width: 100%;
+    height: 200px;
+    padding: 2px;
+}
+
+.title-anime{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.Link-anime {
+    text-decoration: none;
+}
+.anime-release {
+    text-align: center;
+    color: rgb(252, 0, 0);
+    text-decoration: none;
+}

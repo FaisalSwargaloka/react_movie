@@ -1,0 +1,122 @@
+.bgDetail {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.container-content{
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -250px;
+    position: relative;
+    padding: 0 2rem;
+}
+.wrapper-detail{
+    height: 550px;
+    width: 100%;
+}
+.img-poster {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 310px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.movie-content-info{
+    color: white;
+    width: 70%;
+    padding-left: 0;
+    position: relative;
+    float: right;
+    margin-top:-20px;
+    text-align: start;
+    margin-right: 30px;
+}
+.movie-title-detail{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.genres {
+    margin-left: 0,5rem;
+    margin-bottom: 15px;
+}
+
+.genres__item {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.oroduction {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(90px,1fr));
+    gap: 50px;
+    margin-top: 20px;
+}
+.wrapper-company{
+    display: grid;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+
+}
+.logo {
+    background-color: aliceblue;
+    width: 110px;
+    padding: 10px;
+    background-size: cover;
+    height: 50px;
+    margin-left: 5px;
+}
+.production-names{
+    text-align: center;
+    padding-right: 80px;
+    height: 50px;
+}
+
+@media screen and (max-width:900px) {
+    .container-content{
+        width: 23rem;
+        
+    }
+    .img-poster{
+        box-shadow: 4px 7px 8px black;
+    }
+    .movie-content-info{
+        width: 368px;
+        margin-right: -36px;
+        margin-bottom: 50px;
+    }
+    .movie-title-detail{
+        font-size: 40px;
+        margin-bottom: 3px;
+    }
+    .genres {
+        margin-left: 1rem;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+}
+
+     

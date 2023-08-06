@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.myBg {
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+}
+
+.foryou {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+/* START NAVIGATION BAR STYLE */
+
+.Nav {
+    background-color:transparent;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    z-index: 100000;
+    transition: .3s ease-in-out;
+    
+}
+
+.nav-fixed {
+    background-color:rgb(32, 0, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+    transition: .3s ease-in-out;
+    height: 65px;
+}
+
+.nav-link {
+    margin-top: 7px;
+}
+
+.nav-link.active {
+    background: rgb(172, 0, 0);
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background: rgb(172, 0, 0);
+    transition: all 0.5s;
+    border-radius: 8px;
+
+}
+.navbar-toggler-icon{
+    background-color: rgb(139, 0, 0);
+}
+
+/* END NAVIGATION BAR STYLE */
+
+/* START CARAOUSEL STYLE */
+
+.carousel {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}
+.movie-content-info-caraousel{
+    color: white;
+    width: 50%;
+    padding-left: 0;
+    position: relative;
+    float: right;
+    margin-top:-29rem;
+    text-align: start;
+    margin-right: 49%;
+}
+
+.caraousel-image{
+    height: 80vh;
+    width: 100%; 
+    background-size: cover;
+    position: relative;
+    margin-bottom: 15px;
+}
+.title-corousel{
+    font-size: 80px;
+    text-shadow: 2px 9px 7px rgb(44, 44, 44);
+}
+.overview-corousel{
+    text-shadow: 2px 9px 7px rgb(44, 44, 44);
+}
+.rating {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 9px 7px rgb(44, 44, 44);
+}
+/* END CARAOUSEL STYLE */
+
+@media screen and (max-width: 500px) {
+    .movie-content-info-caraousel{
+        margin-right: 0.7rem;
+        width: 96%;
+        margin-top: -250px;
+    }
+    .title-corousel{
+        font-size: 20px;
+        text-shadow: 2px 9px 7px rgb(44, 44, 44);
+    }
+    .caraousel-image{
+        height: 500px;
+    }
+    .overview-corousel{
+        font-size: 10px;
+    }
+    .rating {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width : 900px )  {
+     .movie-content-info-caraousel{
+        margin-right: 1rem;
+        width: 97%;
+        margin-top: -25rem;        
+    }
+    .caraousel-image{
+        height: 700px;
+    }
+    .title-corousel{
+        font-size: 30px;
+        text-shadow: 2px 9px 7px rgb(44, 44, 44);
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    .movie-content-info-caraousel{
+        margin-right: 1rem;
+        width: 97%;
+        margin-top: -20rem;
+    }
+    .title-corousel{
+        font-size: 40px;
+        text-shadow: 2px 9px 7px rgb(44, 44, 44);
+    }
+}
+@media screen and (max-width: 1678px) {
+    .movie-content-info-caraousel{
+        margin-right: 0.5rem;
+        width: 97%;
+        margin-top: -24rem;
+    }
+
+}
